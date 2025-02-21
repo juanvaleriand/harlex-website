@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harlex Industries - Innovating plastic manufacturing with sustainable and high-quality solutions.">
+    <title>Harlex Industries</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.ibb.co.com/tws2wmKx/Logo-Harlex-Industries.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1D4ED8',
+                        secondary: '#EF4444'
+                    }
+                }
+            }
+        };
+    </script>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-gray-100 shadow-md py-4 px-6 flex justify-between items-center">
+        <!-- Logo -->
+        <div class="h-16 w-16">
+            <img src="https://i.ibb.co.com/tws2wmKx/Logo-Harlex-Industries.png" alt="Harlex Industries Logo" class="h-full w-full object-contain">
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none text-2xl" aria-label="Open menu">
+            ☰
+        </button>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+            <a href="#about" class="text-gray-700 hover:text-primary">About</a>
+            <a href="#products" class="text-gray-700 hover:text-primary">Products</a>
+            <a href="#sustainability" class="text-gray-700 hover:text-primary">Sustainability</a>
+            <a href="#industries" class="text-gray-700 hover:text-primary">Industries</a>
+            <a href="#news" class="text-gray-700 hover:text-primary">News</a>
+            <a href="#careers" class="text-gray-700 hover:text-primary">Careers</a>
+            <a href="#contact" class="text-gray-700 hover:text-primary">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden z-50">
+        <!-- Close Button -->
+        <button id="close-menu" class="text-gray-700 text-2xl absolute top-4 right-4" aria-label="Close menu">
+            &times;
+        </button>
+
+        <!-- Mobile Logo -->
+        <div class="flex justify-center mt-8">
+            <img src="https://i.ibb.co.com/tws2wmKx/Logo-Harlex-Industries.png" alt="Harlex Industries Logo" class="h-12">
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="flex flex-col mt-6 space-y-6 p-8 text-lg text-center">
+            <a href="#about" class="text-gray-700 hover:text-primary">About</a>
+            <a href="#products" class="text-gray-700 hover:text-primary">Products</a>
+            <a href="#sustainability" class="text-gray-700 hover:text-primary">Sustainability</a>
+            <a href="#industries" class="text-gray-700 hover:text-primary">Industries</a>
+            <a href="#news" class="text-gray-700 hover:text-primary">News</a>
+            <a href="#careers" class="text-gray-700 hover:text-primary">Careers</a>
+            <a href="#contact" class="text-gray-700 hover:text-primary">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative text-center py-20 bg-gradient-to-r from-primary to-secondary text-white max-w-7xl mx-auto px-6">
+        <h1 class="text-5xl font-bold">Innovating Plastic Manufacturing</h1>
+        <p class="mt-4 text-lg">Sustainable and high-quality plastic solutions for a better future.</p>
+        <a href="#about" class="mt-6 inline-block bg-white text-primary hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-primary">About Harlex Industries</h2>
+        <p class="mt-4 text-gray-700">We are committed to creating innovative plastic products that are sustainable and efficient.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>© 2025 Harlex Industries. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenu = document.getElementById("close-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.remove("-translate-x-full");
+            document.body.classList.add("overflow-hidden");
+        });
+
+        closeMenu.addEventListener("click", () => {
+            mobileMenu.classList.add("-translate-x-full");
+            document.body.classList.remove("overflow-hidden");
+        });
+
+        // Close mobile menu if user clicks outside
+        document.addEventListener("click", (event) => {
+            if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+                mobileMenu.classList.add("-translate-x-full");
+                document.body.classList.remove("overflow-hidden");
+            }
+        });
+    </script>
+
+</body>
+</html>
