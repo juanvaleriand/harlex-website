@@ -24,7 +24,7 @@
         };
     </script>
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 flex flex-col min-h-screen">
 
     <!-- Header -->
     <header class="bg-gray-100 shadow-md py-4 px-6 flex justify-between items-center">
@@ -75,11 +75,14 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative text-center py-20 bg-gradient-to-r from-primary to-secondary text-white max-w-7xl mx-auto px-6">
-        <h1 class="text-5xl font-bold">Innovating Plastic Manufacturing</h1>
-        <p class="mt-4 text-lg">Sustainable and high-quality plastic solutions for a better future.</p>
-        <a href="#about" class="mt-6 inline-block bg-white text-primary hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold">Learn More</a>
-    </section>
+    <section class="relative text-center flex-1 flex flex-col justify-center text-white w-full px-6">
+        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary to-secondary"></div>
+        <div class="relative z-10">
+            <h1 class="text-5xl font-bold">Innovating Plastic Manufacturing</h1>
+            <p class="mt-4 text-lg">Sustainable and high-quality plastic solutions for a better future.</p>
+            <a href="#about" class="mt-6 inline-block bg-white text-primary hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold">Learn More</a>
+        </div>
+    </section>  
 
     <!-- About Section -->
     <section id="about" class="py-16 px-6 max-w-5xl mx-auto text-center">
@@ -88,7 +91,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-6 text-center">
+    <footer class="bg-gray-900 text-white py-6 text-center mt-auto">
         <p>© 2025 Harlex Industries. All rights reserved.</p>
     </footer>
 
