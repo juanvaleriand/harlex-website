@@ -26,6 +26,8 @@
             }
         };
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <style>
         .card:hover {
             border: 1px solid #d2475e;
@@ -104,9 +106,23 @@
             max-width: 100%;
             cursor: pointer;
         }
+
+        .swiper-wrapper {
+            width: 100%;
+            height: max-content !important;
+            padding-bottom: 64px !important;
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+        }
+
+        .swiper-pagination-bullet {
+            background: #4f46e5;
+        }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
 </head>
 
 <body class="bg-white text-gray-900 flex flex-col min-h-screen">
@@ -181,28 +197,28 @@
             <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Card 1 -->
                 <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[300ms] taos:translate-y-[200px] taos:opacity-0">
                     <h3 class="text-lg font-semibold text-blue-700">Custom Solutions</h3>
                     <p class="mt-2 text-gray-600">Desain & produksi plastik injection fleksibel sesuai kebutuhan bisnis
                         lo.</p>
                 </div>
                 <!-- Card 2 -->
                 <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[600ms] taos:translate-y-[200px] taos:opacity-0">
                     <h3 class="text-lg font-semibold text-blue-700">High Quality & Competitive Price</h3>
                     <p class="mt-2 text-gray-600">Kualitas global, harga lokal. Hasil selalu presisi & sesuai
                         ekspektasi.</p>
                 </div>
                 <!-- Card 3 -->
                 <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[900ms] taos:translate-y-[200px] taos:opacity-0">
                     <h3 class="text-lg font-semibold text-blue-700">Innovative Design Support</h3>
                     <p class="mt-2 text-gray-600">Dari konsep sampai 3D Printing, kita bantu lo bawa ide ke realitas.
                     </p>
                 </div>
                 <!-- Card 4 -->
                 <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[1200ms] taos:translate-y-[200px] taos:opacity-0">
                     <h3 class="text-lg font-semibold text-blue-700">Guaranteed Product Security</h3>
                     <p class="mt-2 text-gray-600">Keamanan desain & data klien prioritas utama kita.</p>
                 </div>
@@ -216,15 +232,15 @@
             <h2 class="text-3xl font-bold text-blue-600">Visi & Misi</h2>
             <div class="mt-10 grid md:grid-cols-2 gap-8">
                 <!-- Visi Card -->
-                <div
-                    class="p-6 bg-gradient-to-r from-green-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300">
+                <div class="p-6 bg-gradient-to-r from-green-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 delay-[300ms] duration-[600ms] taos:translate-x-[-100%] taos:opacity-0"
+                    data-taos-offset="400">
                     <h3 class="text-xl font-semibold text-blue-700">Visi</h3>
                     <p class="mt-2 text-gray-600">Menjadi manufaktur terpercaya dengan produk & layanan berkualitas
                         tinggi.</p>
                 </div>
                 <!-- Misi Card -->
-                <div
-                    class="p-6 bg-gradient-to-r from-green-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300">
+                <div class="p-6 bg-gradient-to-r from-green-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 delay-[300ms] duration-[600ms] taos:translate-x-[100%] taos:opacity-0"
+                    data-taos-offset="400">
                     <h3 class="text-xl font-semibold text-blue-700">Misi</h3>
                     <p class="mt-2 text-gray-600">Mengembangkan inovasi desain & manufaktur dengan teknologi tinggi.</p>
                 </div>
@@ -233,7 +249,8 @@
     </section>
 
     <section id="products" class="py-12 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
+        <div class="max-w-6xl mx-auto px-6 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
+            data-taos-offset="400">
             <h2 class="text-3xl font-bold text-center text-blue-600">Our Products</h2>
             <p class="text-center text-gray-700 mt-2">
                 Harlex Industritama menyediakan solusi lengkap untuk kebutuhan distribusi dan produksi
@@ -328,7 +345,8 @@
         </div>
     </section>
 
-    <section class="py-12 bg-white relative">
+    <section class="py-12 bg-white relative delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0"
+        data-taos-offset="400">
         <div class="mx-auto max-w-7xl px-4 sm:px-5 lg:px-6">
             <div class="mb-16">
                 <h2 class="w-full text-center text-blue-600 text-4xl font-bold font-manrope leading-normal pb-2.5">Our
@@ -396,11 +414,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="lightbox" id="lightbox">
-            <span class="close" id="close">&times;</span>
-            <img src="" alt="" class="lightbox-image" id="lightbox-image">
-        </div>
+            <div class="lightbox" id="lightbox">
+                <span class="close" id="close">&times;</span>
+                <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            </div>
         </div>
     </section>
 
@@ -631,6 +648,6 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 </body>
-
 </html>
