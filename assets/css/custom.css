@@ -99,12 +99,12 @@ Author: juanvaleriand@gmail.com
 }
 
 .single-widget .newsletter-form .default-btn:hover {
-    background-color: #7b7b7b !important;
+    background-color: #424866 !important;
     color: #ffffff !important;
 }
 
 .single-widget .newsletter-form .default-btn:hover::before {
-    background-color: #7b7b7b !important;
+    background-color: #424866 !important;
     color: #ffffff !important;
 }
 

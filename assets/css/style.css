@@ -2988,20 +2988,20 @@ Project Area Style
     transition: 0.5s;
     border-radius: 0;
     outline: 0 !important;
-    border: 1px solid #ff5202;
+    border: 1px solid #9e282e;
     color: #05125e;
     font-weight: 500;
     margin-right: 4px;
 }
 
 .shorting-menu .filter:hover {
-    background: #ff5202;
+    background: #9e282e;
     color: #ffffff;
     border-color: #9e282e;
 }
 
 .shorting-menu .filter:focus {
-    background: #ff5202;
+    background: #9e282e;
     color: #ffffff;
     border-color: #9e282e;
 }
@@ -3011,7 +3011,7 @@ Project Area Style
 }
 
 .shorting-menu .filter.active {
-    background: #ff5202;
+    background: #9e282e;
     color: #ffffff;
     border-color: #9e282e;
 }
@@ -3080,7 +3080,7 @@ Project Area Style
     width: 45px;
     height: 45px;
     line-height: 45px;
-    background: #ff5202;
+    background: #9e282e;
     margin: 0 3px;
     border-radius: 50%;
 }
@@ -3112,7 +3112,7 @@ Project Area Style
 }
 
 .single-projects-box:hover .projects-content {
-    background: #ff5202;
+    background: #9e282e;
 }
 
 .single-projects-box:hover .projects-content h3 a {
@@ -3139,7 +3139,7 @@ Project Area Style
 }
 
 .single-projects-box:focus .projects-content {
-    background: #ff5202;
+    background: #9e282e;
 }
 
 .single-projects-box:focus .projects-content h3 a {
@@ -3645,7 +3645,6 @@ Team Area Style
     box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
     padding: 20px;
     background-color: #ffffff;
-    position: absolute;
     bottom: -55px;
     left: 0;
     width: 100%;
@@ -6503,13 +6502,13 @@ Project Details CSS
 }
 
 .project-details-info ul li ul li a:hover {
-    background: #ff5202;
+    background: #9e282e;
     color: #ffffff;
     animation: heartBeat 1000ms infinite linear;
 }
 
 .project-details-info ul li ul li a:focus {
-    background: #ff5202;
+    background: #9e282e;
     color: #ffffff;
 }
 
@@ -6539,7 +6538,7 @@ Project Details CSS
     background: #f7f7f7;
     padding: 30px 20px !important;
     margin-bottom: 25px;
-    border-left: 4px solid #ff5202;
+    border-left: 4px solid #9e282e;
     text-align: left;
 }
 
