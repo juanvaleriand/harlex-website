@@ -67,9 +67,6 @@ Author: juanvaleriand@gmail.com
     color: #003161 !important;
 }
 
-.mean-container .mean-nav {
-    margin-top: 111px !important;
-}
 .dripli-nav-style-1 .main-nav nav .navbar-nav .nav-item a:focus {
     background-color: #9e282e !important;
     position: relative;
@@ -124,16 +121,21 @@ Author: juanvaleriand@gmail.com
     margin-bottom: 28px;
 }
 
+.mean-container .mean-nav {
+    margin-top: 86px !important;
+}
+
 /** Only Mobile Menu **/
 @media only screen and (max-width: 991px) {
     .mean-container .mean-bar {
         background-color: #ffffff;
         padding: 0;
-        height: 110px;
+        height: 85px;
     }
 
     .mean-container a.meanmenu-reveal {
         color: #9e282e !important;
+        top: 15px;
     }
 
     .mean-container a.meanmenu-reveal span {
@@ -146,7 +148,11 @@ Author: juanvaleriand@gmail.com
         top: 8px;
     }
 
+    .logo-img {
+        height: 75px !important;
+    }
+
     .mobile-nav nav .navbar-nav {
-        height: auto !important;
+        height: 218px;
     }
 }
