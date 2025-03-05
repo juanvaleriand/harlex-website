@@ -1,653 +1,1026 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Harlex Industries - Innovating plastic manufacturing with sustainable and high-quality solutions.">
-    <title>Harlex Industries</title>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://i.ibb.co.com/tws2wmKx/Logo-Harlex-Industries.png">
+	<!-- Bootstrap Min CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Owl Theme Default Min CSS -->
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<!-- Owl Carousel Min CSS -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<!-- Animate Min CSS -->
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!--=== FlatIcon Min CSS ===-->
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<!-- Font Awesome Min CSS -->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!--=== ImageLightBox Min CSS ===-->
+	<link rel="stylesheet" href="assets/css/imagelightbox.min.css">
+	<!--=== MeanMenu Min CSS ===-->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- Nice Select Min CSS -->
+	<link rel="stylesheet" href="assets/css/nice-select.min.css">
+	<!-- Slick Min CSS -->
+	<link rel="stylesheet" href="assets/css/slick.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="assets/img/logo.png">
 
-    <!-- Tailwind CSS & Heroicons -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#1D4ED8',
-                        secondary: '#EF4444'
-                    }
-                }
-            }
-        };
-    </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <style>
-        .card:hover {
-            border: 1px solid #d2475e;
-            transform: scale(1.05);
-        }
-
-        .card:active {
-            transform: scale(0.95) rotateZ(1.7deg);
-        }
-
-        .rotate-180 {
-            transform: rotate(180deg);
-        }
-
-        .nav-for-slider .swiper-slide {
-            cursor: pointer;
-            margin-right: 0 !important;
-        }
-
-        .swiper-wrapper {
-            height: auto;
-        }
-
-        .nav-for-slider .swiper-slide img {
-            border: 2px solid transparent;
-            border-radius: 28px;
-        }
-
-        .nav-for-slider .swiper-slide-thumb-active img {
-            border-color: rgb(79 70 229);
-        }
-
-        .lightbox {
-            display: none;
-            position: fixed;
-            z-index: 999;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        .lightbox-image {
-            display: block;
-            margin: auto;
-            max-width: 100%;
-            max-height: 100%;
-        }
-
-        .close {
-            color: #fff;
-            font-size: 3em;
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            cursor: pointer;
-        }
-
-        .gallery {
-            width: 90vw;
-            max-width: 1200px;
-            margin: 0 auto;
-            grid-template-rows: 1fr;
-            grid-column-gap: 30px;
-            grid-row-gap: 30px;
-        }
-
-        .gallery img {
-            max-width: 100%;
-            cursor: pointer;
-        }
-
-        .gallery img:hover {
-            max-width: 100%;
-            cursor: pointer;
-        }
-
-        .swiper-wrapper {
-            width: 100%;
-            height: max-content !important;
-            padding-bottom: 64px !important;
-            -webkit-transition-timing-function: linear !important;
-            transition-timing-function: linear !important;
-            position: relative;
-        }
-
-        .swiper-pagination-bullet {
-            background: #4f46e5;
-        }
-    </style>
-    <script>
-        document.documentElement.classList.add('js')
-    </script>
+	<!-- TITLE -->
+	<title>Harlex Industries</title>
 </head>
 
-<body class="bg-white text-gray-900 flex flex-col min-h-screen">
+<body>
+	<!-- Start Preloader Area -->
+	<div class="preloader">
+		<div class="lds-ripple">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- End Preloader Area -->
 
-    <!-- Header -->
-    <header class="shadow-md py-4 px-6 flex justify-between items-center">
-        <!-- Logo -->
-        <div class="h-20 w-20">
-            <img src="https://i.ibb.co.com/tws2wmKx/Logo-Harlex-Industries.png" alt="Harlex Industries Logo"
-                class="h-full w-full object-contain">
-        </div>
+	<!-- Start Dripli Navbar Area -->
+	<div class="dripli-header-area fixed-top">
+		<div class="top-header-style-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<ul class="contact-info">
+							<li>
+								<a href="#">NEWS & MEDIA</a>
+							</li>
+							<li>
+								<a href="#">CAREERS</a>
+							</li>
+							<li>
+								<a href="#">CONTACTS</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-8">
+						<ul class="contact-info contact-info-2">
+							<li>
+								<a class="pointer" href="#">
+									<i class="flaticon-clock-circular-outline"></i>
+									MON - FRI 09:00 - 19:00
+								</a>
+							</li>
+							<li>
+								<a href="tel:+62 819-3223-062">
+									<i class="flaticon-telephone-handle-silhouette"></i>
+									CALL US: +62 819-3223-062
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="flaticon-mail"></i>
+									<span class="__cf_email__">eric.agus@harlexindustries.com</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-area dripli-nav-style-1">
+			<!-- Menu For Mobile Device -->
+			<div class="mobile-nav">
+				<a href="index.html" class="logo">
+					<img class="logo-img" src="assets/img/logo.png" alt="Dripli Logo">
+				</a>
+			</div>
 
-        <!-- Desktop Navigation -->
-        <nav class="hidden md:flex space-x-6 items-center">
-            <a href="index.html" class="text-gray-700 hover:text-primary">Home</a>
-            <a href="about.html" class="text-gray-700 hover:text-primary" data-lang="about">About Us</a>
-            <a href="#products" class="text-gray-700 hover:text-primary" data-lang="products">Products</a>
-            <a href="#contact" class="text-gray-700 hover:text-primary" data-lang="contact">Contact</a>
-            <button id="toggleLang" class="px-3 py-1 border rounded-lg text-gray-700">EN</button>
-        </nav>
+			<!-- Menu For Desktop Device -->
+			<div class="main-nav">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img class="logo-img" src="assets/img/logo.png" alt="Dripli Logo">
+						</a>
 
-        <!-- Mobile Menu Button -->
-        <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none">
-            ☰
-        </button>
-    </header>
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav m-auto">
+								<li class="nav-item">
+									<a href="#" class="nav-link active">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Products</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Contact</a>
+								</li>
+							</ul>
+							<div class="others-option">
+								<div class="language-list">
+									<div class="select-box">
+										<i class="flaticon-avatar"></i>
+										<select>
+											<option value="1">English</option>
+											<option value="2">Indonesia</option>
+										</select>
+									</div>
+								</div>
+								<div class="option-item">
+									<i class="search-btn fa fa-search"></i>
+									<i class="close-btn fa fa-close"></i>
+									<div class="search-overlay search-popup">
+										<div class='search-box'>
+											<form class="search-form">
+												<input class="search-input" name="search" placeholder="Search"
+													type="text">
+												<button class="search-button" type="submit"><i
+														class="fa fa-search"></i></button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- End Dripli Navbar Area -->
 
-    <!-- Mobile Menu -->
-    <div id="mobile-menu"
-        class="fixed inset-0 bg-white z-50 transform -translate-x-full transition-transform md:hidden">
-        <div class="p-6 flex flex-col space-y-4">
-            <button id="close-menu" class="self-end text-gray-700">✖</button>
-            <a href="index.html" class="text-gray-700 hover:text-primary">Home</a>
-            <a href="about.html" class="text-gray-700 hover:text-primary" data-lang="about">About Us</a>
-            <a href="#products" class="text-gray-700 hover:text-primary" data-lang="products">Products</a>
-            <a href="#contact" class="text-gray-700 hover:text-primary" data-lang="contact">Contact</a>
-            <button id="toggleLangMobile" class="px-3 py-1 border rounded-lg text-gray-700">EN</button>
-        </div>
-    </div>
+	<!-- Start Dripli Slider Area -->
+	<section class="dripli-slider-area">
+		<div class="dripli-slider owl-carousel owl-theme">
+			<div class="dripli-slider-item slider-item-bg-3">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="dripli-slider-text">
+								<span>Explore Industry Services</span>
+								<h1>In the plastic molding industry, possibilities are limitless</h1>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officiis, nostrum et,
+									consequatur quisquam dignissimos dolorem perspiciatis sint dolor, excepturi
+									doloribus laudantium tempora incidunt quidem?</p>
+								<a class="default-btn default-btn-explore" href="#">
+									Explore Now
+									<i class="flaticon-right"></i>
+								</a>
+								<a class="default-btn sl-btn" href="#">
+									Get A Quote
+									<i class="flaticon-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dripli-slider-item slider-item-bg-2">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="dripli-slider-text">
+								<span>Explore Industry Services</span>
+								<h1>National progress is built on individual dedication</h1>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officiis, nostrum et,
+									consequatur quisquam dignissimos dolorem perspiciatis sint dolor, excepturi
+									doloribus laudantium tempora incidunt quidem?</p>
+								<a class="default-btn" href="#">
+									Explore Now
+									<i class="flaticon-right"></i>
+								</a>
+								<a class="default-btn sl-btn" href="#">
+									Get A Quote
+									<i class="flaticon-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dripli-slider-item slider-item-bg-1">
+				<div class="d-table">
+					<div class="d-table-cell">
+						<div class="container">
+							<div class="dripli-slider-text">
+								<span>Explore Industry Services</span>
+								<h1>Laziness makes everything hard, but hard work shapes success</h1>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officiis, nostrum et,
+									consequatur quisquam dignissimos dolorem perspiciatis sint dolor, excepturi
+									doloribus laudantium tempora incidunt quidem?</p>
+								<a class="default-btn" href="#">
+									Explore Now
+									<i class="flaticon-right"></i>
+								</a>
+								<a class="default-btn sl-btn" href="#">
+									Get A Quote
+									<i class="flaticon-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Dripli Slider Area -->
 
-    <!-- Hero Section -->
-    <section
-        class="relative text-center flex-1 flex flex-col justify-center text-white w-full px-6 py-20 bg-gradient-to-r from-primary to-secondary">
-        <div class="relative z-10 max-w-3xl mx-auto">
-            <h1 class="text-5xl font-bold leading-tight" data-lang="heroTitle">Innovation and Precision in Every Print
-            </h1>
-            <p class="mt-4 text-lg" data-lang="heroDesc">Sustainable and high-quality plastic manufacturing for a better
-                future.</p>
+	<!-- Start High Quality Service Area -->
+	<section class="high-quality-service-area ptb-100">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="quality-service-area">
+						<div class="quality-service-wrap owl-carousel owl-theme">
+							<div class="quality-service-wrap-item">
+								<img src="assets/img/quality-service/2.jpg" alt="Quality">
+							</div>
+							<div class="quality-service-wrap-item">
+								<img src="assets/img/quality-service/3.jpg" alt="Quality">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="high-quality-service">
+						<span class="top-title">High Quality Service</span>
+						<h2>Harlex Industritama, Mitra Terpercaya dalam Injeksi Molding Plastik.</h2>
+						<p>Harlex hadir untuk Anda yang sedang mencari pabrik dengan fleksibilitas tinggi, harga
+							kompetitif, dan hasil berkualitas. Bersama pelanggan, mitra, dan pemasok, kami tumbuh dalam
+							hubungan berkelanjutan, menghadirkan solusi inovatif, dan memberikan dampak positif bagi
+							usaha bisnis anda.</p>
+						<ul>
+							<li>
+								<i class="flaticon-right-1"></i>
+								Quality Control System, 100% Satisfaction Guarantee
+							</li>
+							<li>
+								<i class="flaticon-right-1"></i>
+								Experienced Professional Staff, Accurate Processes
+							</li>
+							<li>
+								<i class="flaticon-right-1"></i>
+								Atmosphere Sensitivity, Personalized Controlled
+							</li>
+							<li>
+								<i class="flaticon-right-1"></i>
+								Unrivalled workmanship, Professional and Qualified
+							</li>
+						</ul>
+						<a class="default-btn" href="#">
+							More About
+							<i class="flaticon-right"></i>
+						</a>
+						<div class="signature">
+							<img src="assets/img/signature.png" alt="Signature">
+							<span>Founder & Ceo</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End  High Quality Service  Area -->
 
-            <!-- Search Input -->
-            <div class="mt-6 flex items-center bg-white rounded-lg shadow-lg p-2 w-full max-w-lg mx-auto">
-                <input type="text" placeholder="Search for products..."
-                    class="flex-1 px-4 py-2 text-gray-700 focus:outline-none">
-                <button class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                        class="w-5 h-5">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-5.2-5.2m1.4-4.6a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </section>
+	<!-- Start Our Service Area -->
+	<section class="our-service-area pt-100">
+		<div class="container">
+			<div class="section-title section-title-2">
+				<h2>WHY CHOOSE US</h2>
+				<p>Mengapa Memilih Harlex untuk Solusi Injeksi Plastik Custom?</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 single-services-container-card">
+					<div class="single-services">
+						<h3>
+							<i class="flaticon-check-symbol"></i>
+							Solusi Custom Sesuai Kebutuhan Anda
+						</h3>
+						<p>Harlex Industritama menawarkan layanan injeksi plastik yang sepenuhnya fleksibel. Kami dapat
+							membantu Anda merancang dan memproduksi produk sesuai kebutuhan bisnis Anda, bahkan jika
+							Anda belum menemukan pabrik lain yang mampu melakukannya.</p>
+						<a href="#" class="read-more">
+							Learn More
+							<i class="flaticon-right"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 single-services-container-card">
+					<div class="single-services">
+						<h3>
+							<i class="flaticon-up-arrow"></i>
+							Kualitas Tinggi dengan Harga Kompetitif
+						</h3>
+						<p>Kami memberikan jaminan kualitas tinggi setara produk global, namun tetap dengan harga
+							terjangkau. Harlex memastikan hasil akhir produk selalu presisi dan memenuhi ekspektasi
+							klien.</p>
+						<a href="#" class="read-more">
+							Learn More
+							<i class="flaticon-right"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 single-services-container-card">
+					<div class="single-services">
+						<h3>
+							<i class="flaticon-support"></i>
+							Dukungan Desain & Inovasi Modern
+						</h3>
+						<p>Dari desain awal hingga prototipe, kami menyediakan layanan 3D Design Modeling dan 3D
+							Printing untuk memastikan setiap ide Anda dapat diwujudkan menjadi bentuk nyata.</p>
+						<a href="#" class="read-more">
+							Learn More
+							<i class="flaticon-right"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 single-services-container-card">
+					<div class="single-services">
+						<h3>
+							<i class="flaticon-capital"></i>
+							Keamanan dan Kerahasiaan Produk Terjamin
+						</h3>
+						<p>Keamanan desain dan data klien adalah prioritas kami. Kami menggunakan standar keamanan
+							tinggi untuk melindungi ide-ide inovatif Anda.</p>
+						<a href="#" class="read-more">
+							Learn More
+							<i class="flaticon-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Our Service Service Area -->
 
-    <!-- Why Choose Us Section -->
-    <section class="py-12 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center text-blue-600">Why Choose Us</h2>
-            <h4 class="text-lg text-center text-gray-600 mt-2">Kenapa pilih Harlex buat solusi custom plastic injection?
-            </h4>
+	<!-- Start FAQ Area -->
+	<section class="questions-area two faq-page ptb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="questions-bg-area">
+						<div class="section-title">
+							<span class="top-title">Solusi Produk Plastik</span>
+							<h2>Produk</h2>
+							<p>Harlex Industritama menyediakan solusi lengkap untuk kebutuhan distribusi dan produksi
+								berbagai komponen dan produk plastik. Kami memisahkan hasil produk jadi dan komponen,
+								sehingga memudahkan pelanggan dalam menentukan kebutuhan mereka.</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="faq-accordion">
+									<ul class="accordion">
+										<li class="accordion-item">
+											<a class="accordion-title" href="javascript:void(0)">
+												<i class="fa fa-arrow-right"></i>
+												1. Distributor & Pedagang
+											</a>
+											<ul class="accordion-content">
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Produk Jadi:</strong> Sikat gigi,
+													alat tulis (clip board), box jam tangan.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Distribusi Barang Plastik:</strong>
+													Bangku plastik, gantungan baju, kursi bakso.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Produk Custom:</strong> Jepitan baju
+													atau produk lainnya, dengan desain dari nol atau modifikasi sesuai
+													kebutuhan pelanggan.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Alat Peternakan Ayam:</strong>
+													Tempat air minum ayam dan peralatan lainnya.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Kontrak Manufaktur:</strong>
+													Produksi barang khusus tanpa dijual ke pihak lain.
+												</li>
+											</ul>
+										</li>
+										<li class="accordion-item">
+											<a class="accordion-title" href="javascript:void(0)">
+												<i class="fa fa-arrow-right"></i>
+												2. Manufaktur & Produksi
+											</a>
+											<ul class="accordion-content">
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Pabrik Plastik:</strong> Produksi
+													lemari plastik dan aksesori tambahan seperti gagang pintu.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Kolaborasi dengan Vendor:</strong>
+													Bekerja sama dengan vendor lokal untuk berbagai kebutuhan produksi.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Layanan Impor dan Produksi
+														Lokal:</strong> Menerima produksi produk lokal atau impor dari
+													China sesuai permintaan.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Dukungan Produksi
+														Internasional:</strong>
+													Membantu klien dari luar negeri yang ingin memproduksi barang di
+													Indonesia.
+												</li>
+											</ul>
+										</li>
+										<li class="accordion-item">
+											<a class="accordion-title" href="javascript:void(0)">
+												<i class="fa fa-arrow-right"></i>
+												3. Layanan Injeksi Plastik Molding
+											</a>
+											<ul class="accordion-content">
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Custom Houseware dan Produk
+														Lainnya:</strong> Injeksi plastik untuk kebutuhan rumah tangga,
+													container, dan alat bangunan.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Total Product Design &
+														Manufacturing:</strong>
+													Kolaborasi penuh dalam desain produk mulai dari konsep awal hingga
+													produksi massal.
+												</li>
+												<li>
+													<i class="flaticon-right-1"></i>
+													<strong style="color: #424866;">Layanan 3D Design Modeling dan 3D
+														Printing:</strong> Menyediakan prototipe cepat untuk memastikan
+													akurasi desain sebelum proses produksi dimulai.
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="choose-img-wrap">
+						<img src="assets/img/choose-bg.jpg" alt="">
+						<div class="video-wrap">
+							<div class="video-btn-wrap">
+								<a href="play-video" class="video-btn"
+									data-ilb2-video='{"controls":"controls", "autoplay":false, "sources":[{"src":"assets/img/video.mp4", "type":"video/mp4"}]}'
+									data-imagelightbox="video">
+									<i class="fa fa-play"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End FAQ Area -->
 
-            <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Card 1 -->
-                <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[300ms] taos:translate-y-[200px] taos:opacity-0">
-                    <h3 class="text-lg font-semibold text-blue-700">Custom Solutions</h3>
-                    <p class="mt-2 text-gray-600">Desain & produksi plastik injection fleksibel sesuai kebutuhan bisnis
-                        lo.</p>
-                </div>
-                <!-- Card 2 -->
-                <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[600ms] taos:translate-y-[200px] taos:opacity-0">
-                    <h3 class="text-lg font-semibold text-blue-700">High Quality & Competitive Price</h3>
-                    <p class="mt-2 text-gray-600">Kualitas global, harga lokal. Hasil selalu presisi & sesuai
-                        ekspektasi.</p>
-                </div>
-                <!-- Card 3 -->
-                <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[900ms] taos:translate-y-[200px] taos:opacity-0">
-                    <h3 class="text-lg font-semibold text-blue-700">Innovative Design Support</h3>
-                    <p class="mt-2 text-gray-600">Dari konsep sampai 3D Printing, kita bantu lo bawa ide ke realitas.
-                    </p>
-                </div>
-                <!-- Card 4 -->
-                <div
-                    class="p-6 bg-gradient-to-r from-blue-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 text-center [animation-iteration-count:infinite] bg-primary duration-[600ms] delay-[1200ms] taos:translate-y-[200px] taos:opacity-0">
-                    <h3 class="text-lg font-semibold text-blue-700">Guaranteed Product Security</h3>
-                    <p class="mt-2 text-gray-600">Keamanan desain & data klien prioritas utama kita.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- Our Our Process Area -->
+	<div class="section-our-process pt-100 pb-70">
+		<div class="container">
+			<div class="section-title">
+				<span class="top-title">Visi & Misi</span>
+				<h2>Inovasi dan Presisi dalam Setiap Cetakan</h2>
+				<p>Visi kami menghadirkan solusi manufaktur yang disesuaikan untuk berbagai kebutuhan usaha anda tanpa
+					harus bergantung pada manufaktur luar negeri, mulai dari produk rumah tangga hingga alat bangunan
+					berbahan PP dan PBT. Dengan komitmen terhadap inovasi, kualitas, dan kolaborasi, kami memastikan
+					bahwa setiap produk anda memenuhi standar tinggi global.</p>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-md-6">
+					<div class="single-process bg-1">
+						<i class="process-icon flaticon-team"></i>
+						<h3>Visi</h3>
+						<p>Menjadi manufaktur terpercaya yang menghadirkan produk, layanan, dan solusi berkualitas
+							tinggi dengan standar terbaik.</p>
+						<a href="#" class="read-more">Learn More <i class="flaticon-right"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="single-process bg-1">
+						<i class="process-icon flaticon-target"></i>
+						<h3>Misi</h3>
+						<p>Mengembangkan desain, fabrikasi, dan manufaktur yang efisien serta inovatif dengan teknologi
+							tinggi dan sistem kerja terintegrasi.</p>
+						<a href="#" class="read-more">Learn More <i class="flaticon-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Our Process Area -->
 
-    <!-- Visi & Misi Section -->
-    <section class="py-12 bg-white">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-blue-600">Visi & Misi</h2>
-            <div class="mt-10 grid md:grid-cols-2 gap-8">
-                <!-- Visi Card -->
-                <div class="p-6 bg-gradient-to-r from-green-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 delay-[300ms] duration-[600ms] taos:translate-x-[-100%] taos:opacity-0"
-                    data-taos-offset="400">
-                    <h3 class="text-xl font-semibold text-blue-700">Visi</h3>
-                    <p class="mt-2 text-gray-600">Menjadi manufaktur terpercaya dengan produk & layanan berkualitas
-                        tinggi.</p>
-                </div>
-                <!-- Misi Card -->
-                <div class="p-6 bg-gradient-to-r from-green-50 to-white rounded-2xl shadow-md hover:shadow-lg transition duration-300 delay-[300ms] duration-[600ms] taos:translate-x-[100%] taos:opacity-0"
-                    data-taos-offset="400">
-                    <h3 class="text-xl font-semibold text-blue-700">Misi</h3>
-                    <p class="mt-2 text-gray-600">Mengembangkan inovasi desain & manufaktur dengan teknologi tinggi.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- Start Our Portfolio Area -->
+	<section class="our-portfolio-area pt-100">
+		<div class="container">
+			<div class="section-title">
+				<span class="top-title">Hasil Karya Kami</span>
+				<h2>Portfolio Kami</h2>
+				<p>Berikut deretan produk/komponen yang telah menjadi bagian dari proyek/pekerjaan kami.</p>
+			</div>
 
-    <section id="products" class="py-12 bg-white">
-        <div class="max-w-6xl mx-auto px-6 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
-            data-taos-offset="400">
-            <h2 class="text-3xl font-bold text-center text-blue-600">Our Products</h2>
-            <p class="text-center text-gray-700 mt-2">
-                Harlex Industritama menyediakan solusi lengkap untuk kebutuhan distribusi dan produksi
-                berbagai komponen dan produk plastik. Kami memisahkan hasil produk jadi dan komponen,
-                sehingga memudahkan pelanggan dalam menentukan kebutuhan mereka.
-            </p>
+			<div class="portfolio-slides">
+				<div class="our-portfolio">
+					<div>
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/5.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-            <!-- Accordion Item 1 -->
-            <div class="border-b border-slate-200">
-                <button onclick="toggleAccordion(1)"
-                    class="w-full flex justify-between items-center py-5 text-slate-800">
-                    <span>Distributor & Pedagang</span>
-                    <span id="icon-1" class="text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                            <path fill-rule="evenodd"
-                                d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </span>
-                </button>
-                <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                    <div class="pb-5 text-sm text-slate-500">
-                        <ul>
-                            <li><strong>Produk Jadi:</strong> Sikat gigi, alat tulis (clip board), box jam tangan.</li>
-                            <li><strong>Distribusi Barang Plastik:</strong> Bangku plastik, gantungan baju, kursi bakso.
-                            </li>
-                            <li><strong>Produk Custom:</strong> Jepitan baju atau produk lainnya, dengan desain dari nol
-                                atau modifikasi sesuai kebutuhan pelanggan.</li>
-                            <li><strong>Alat Peternakan Ayam:</strong> Tempat air minum ayam dan peralatan lainnya.</li>
-                            <li><strong>Kontrak Manufaktur:</strong> Produksi barang khusus tanpa dijual ke pihak lain.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/6.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-            <!-- Accordion Item 2 -->
-            <div class="border-b border-slate-200">
-                <button onclick="toggleAccordion(2)"
-                    class="w-full flex justify-between items-center py-5 text-slate-800">
-                    <span>Manufaktur & Produksi</span>
-                    <span id="icon-2" class="text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                            <path fill-rule="evenodd"
-                                d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </span>
-                </button>
-                <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                    <div class="pb-5 text-sm text-slate-500">
-                        <ul>
-                            <li><strong>Pabrik Plastik:</strong> Produksi lemari plastik dan aksesori tambahan seperti
-                                gagang pintu.</li>
-                            <li><strong>Kolaborasi dengan Vendor:</strong> Bekerja sama dengan vendor lokal untuk
-                                berbagai kebutuhan produksi.</li>
-                            <li><strong>Layanan Impor dan Produksi Lokal:</strong> Menerima produksi produk lokal atau
-                                impor dari China sesuai permintaan.</li>
-                            <li><strong>Dukungan Produksi Internasional:</strong> Membantu klien dari luar negeri yang
-                                ingin memproduksi barang di Indonesia.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/7.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-            <!-- Accordion Item 3 -->
-            <div class="border-b border-slate-200">
-                <button onclick="toggleAccordion(3)"
-                    class="w-full flex justify-between items-center py-5 text-slate-800">
-                    <span>Layanan Injeksi Plastik Molding</span>
-                    <span id="icon-3" class="text-slate-800 transition-transform duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                            <path fill-rule="evenodd"
-                                d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </span>
-                </button>
-                <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                    <div class="pb-5 text-sm text-slate-500">
-                        <ul>
-                            <li><strong>Custom Houseware dan Produk Lainnya:</strong> Injeksi plastik untuk kebutuhan
-                                rumah tangga, container, dan alat bangunan.</li>
-                            <li><strong>Total Product Design & Manufacturing:</strong> Kolaborasi penuh dalam desain
-                                produk mulai dari konsep awal hingga produksi massal.</li>
-                            <li><strong>Layanan 3D Design Modeling dan 3D Printing:</strong> Menyediakan prototipe cepat
-                                untuk memastikan akurasi desain sebelum proses produksi dimulai.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/8.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-    <section class="py-12 bg-white relative delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0"
-        data-taos-offset="400">
-        <div class="mx-auto max-w-7xl px-4 sm:px-5 lg:px-6">
-            <div class="mb-16">
-                <h2 class="w-full text-center text-blue-600 text-4xl font-bold font-manrope leading-normal pb-2.5">Our
-                    Portofolio</h2>
-                <p class="w-full text-center text-gray-600 text-lg font-normal leading-8">
-                    Berikut deretan produk/komponen yang telah menjadi bagian dari proyek/pekerjaan kami.
-                </p>
-            </div>
-            <div class="flex flex-col-reverse  gap-8 mx-auto">
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/9.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-                <div class="slider-box flex flex-col xl:flex-row gap-8">
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/10.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-                    <div class="box xl:w-[1062px] w-full gallery">
-                        <div class="swiper main-slide-carousel swiper-container relative">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="block xl:w-[1062px] w-full mx-auto h-[627px] rounded-3xl">
-                                        <img src="https://pagedone.io/asset/uploads/1713943683.png" alt="Gallery image"
-                                            class="gallery-image w-full h-full mx-auto rounded-3xl object-cover" />
-                                    </div>
-                                </div>
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/11.jpg" alt="image">
+								</div>
+							</div>
+						</div>
 
-                                <div class="swiper-slide">
-                                    <div class="block xl:w-[1062px] w-full mx-auto h-[627px] rounded-3xl">
-                                        <img src="https://pagedone.io/asset/uploads/1713943709.png" alt="Gallery image"
-                                            class="gallery-image w-full h-full mx-auto rounded-3xl object-cover" />
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="block xl:w-[1062px] w-full mx-auto h-[627px] rounded-3xl">
-                                        <img src="https://pagedone.io/asset/uploads/1713943720.png" alt="Gallery image"
-                                            class="gallery-image w-full h-full mx-auto rounded-3xl object-cover" />
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="block xl:w-[1062px] w-full mx-auto h-[627px] rounded-3xl">
-                                        <img src="https://pagedone.io/asset/uploads/1713943731.png" alt="Gallery image"
-                                            class="gallery-image w-full h-full mx-auto rounded-3xl object-cover" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xl:w-[126px] w-full">
-                        <div class="nav-for-slider">
-                            <div class="swiper-wrapper justify-center md:gap-7 gap-4 xl:flex-col">
-                                <div class="swiper-slide thumbs-slide lg:!w-[126px] md:!h-[135px] w-full h-[110px]">
-                                    <img src="https://pagedone.io/asset/uploads/1713943683.png" alt="Gallery image"
-                                        class="gallery-image w-full cursor-pointer h-full rounded-2xl border-2 border-gray-200 transition-all duration-500 hover:border-indigo-600 object-cover" />
-                                </div>
-                                <div class="swiper-slide thumbs-slide lg:!w-[126px] md:!h-[135px] w-full h-[110px]">
-                                    <img src="https://pagedone.io/asset/uploads/1713943709.png" alt="Gallery image"
-                                        class="gallery-image w-full cursor-pointer h-full rounded-2xl border-2 border-gray-200 transition-all duration-500 hover:border-indigo-600 object-cover" />
-                                </div>
-                                <div class="swiper-slide thumbs-slide lg:!w-[126px] md:!h-[135px] w-full h-[110px]">
-                                    <img src="https://pagedone.io/asset/uploads/1713943720.png" alt="Gallery image"
-                                        class="gallery-image w-full cursor-pointer h-full rounded-2xl border-2 border-gray-200 transition-all duration-500 hover:border-indigo-600 object-cover" />
-                                </div>
-                                <div class="swiper-slide thumbs-slide lg:!w-[126px] md:!h-[135px] w-full h-[110px]">
-                                    <img src="https://pagedone.io/asset/uploads/1713943731.png" alt="Gallery image"
-                                        class="gallery-image w-full cursor-pointer h-full rounded-2xl border-2 border-gray-200 transition-all duration-500 hover:border-indigo-600 object-cover" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="lightbox" id="lightbox">
-                <span class="close" id="close">&times;</span>
-                <img src="" alt="" class="lightbox-image" id="lightbox-image">
-            </div>
-        </div>
-    </section>
+						<div class="item">
+							<div class="single-portfolio">
+								<div class="portfolio-img">
+									<img src="assets/img/project-details/12.jpg" alt="image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-    <footer class="px-4 pt-16 lg:px-8 bg-gray-100">
-        <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div class="space-y-4 text-sm">
-                <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-                    <img src="https://i.ibb.co.com/tws2wmKx/Logo-Harlex-Industries.png" alt="Harlex Industries Logo"
-                        class="w-32">
-                </a>
-            </div>
+				<div class="portfolio-thumbnails">
+					<div>
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/5.jpg" alt="image">
+							</div>
+						</div>
 
-            <div class="space-y-2 text-sm">
-                <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
-                <div class="flex items-center">
-                    <i class="fa-solid fa-phone text-gray-500 mr-2"></i>
-                    <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone"
-                        class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-                        08193223062
-                    </a>
-                </div>
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/6.jpg" alt="image">
+							</div>
+						</div>
 
-                <div class="flex items-center">
-                    <i class="fa-solid fa-envelope text-gray-500 mr-2"></i>
-                    <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email"
-                        class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-                        eric.agus@harlexindustries.com
-                    </a>
-                </div>
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/7.jpg" alt="image">
+							</div>
+						</div>
 
-                <div class="flex items-center">
-                    <i class="fa-solid fa-house text-gray-500 mr-2"></i>
-                    <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer"
-                        aria-label="Our address" title="Our address"
-                        class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-                        Factory Plant @ Batu Ceper, Tangerang
-                    </a>
-                </div>
-            </div>
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/8.jpg" alt="image">
+							</div>
+						</div>
 
-            <div>
-                <span class="text-base font-bold tracking-wide text-gray-900">Social</span>
-                <div class="flex items-center mt-1 space-x-3">
-                    <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                        <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
-                            <circle cx="15" cy="15" r="4"></circle>
-                            <path
-                                d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z">
-                            </path>
-                        </svg>
-                    </a>
-                    <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-                            <path
-                                d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-                <p class="mt-4 text-sm text-gray-500">
-                    Stay connected for the latest updates, insights, and inspirations!
-                </p>
-            </div>
-        </div>
-        <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-            <p class="text-sm text-gray-600">
-                © Copyright 2025 Harlex Industries. All rights reserved.
-            </p>
-            <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-                <li>
-                    <a href="/"
-                        class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
-                </li>
-                <li>
-                    <a href="/"
-                        class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy
-                        Policy</a>
-                </li>
-                <li>
-                    <a href="/"
-                        class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms
-                        &amp; Conditions</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/9.jpg" alt="image">
+							</div>
+						</div>
 
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        // Toggle Mobile Menu
-        const menuBtn = document.getElementById("menu-btn");
-        const mobileMenu = document.getElementById("mobile-menu");
-        const closeMenu = document.getElementById("close-menu");
-        const toggleLang = document.getElementById("toggleLang");
-        const toggleLangMobile = document.getElementById("toggleLangMobile");
-        menuBtn.addEventListener("click", () => {
-            mobileMenu.classList.remove("-translate-x-full");
-            document.body.classList.add("overflow-hidden");
-        });
-        closeMenu.addEventListener("click", () => {
-            mobileMenu.classList.add("-translate-x-full");
-            document.body.classList.remove("overflow-hidden");
-        });
-        document.addEventListener("click", (event) => {
-            if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
-                mobileMenu.classList.add("-translate-x-full");
-                document.body.classList.remove("overflow-hidden");
-            }
-        });
-        // Toggle Language
-        const translations = {
-            en: {
-                about: "About Us",
-                products: "Products",
-                sustainability: "Custom Solutions to Fit Your Needs",
-                contact: "Contact",
-                heroTitle: "Innovation and Precision in Every Print.",
-                heroDesc: "Sustainable and high-quality plastic manufacturing for a better future.",
-                featuresTitle: "Why Choose Us",
-                featuresDesc: "Why Choose Harlex for Custom Plastic Injection Solutions?",
-                sustainabilityDesc: "Harlex Industritama offers a fully flexible plastic injection service. We can help you design and manufacture products according to your business needs, even if you haven't found another factory capable of doing so.",
-                quality: "High Quality with Competitive Price",
-                qualityDesc: "We provide high quality assurance on par with global products, but at affordable prices. Harlex ensures the final product is always precise and meets client expectations.",
-                innovation: "Modern Design & Innovation Support",
-                innovationDesc: "From initial design to prototype, we provide 3D Design Modeling and 3D Printing services to ensure your ideas can be brought to life.",
-                guaranteed: "Product Safety and Confidentiality Guaranteed",
-                guaranteedDesc: "The security of our designs and client data is our priority. We use high security standards to protect your innovative ideas."
-            },
-            id: {
-                about: "Tentang Kami",
-                products: "Produk",
-                sustainability: "Solusi Custom Sesuai Kebutuhan Anda",
-                contact: "Kontak",
-                heroTitle: "Inovasi dan Presisi dalam Setiap Cetakan.",
-                heroDesc: "Manufaktur plastik berkualitas tinggi dan berkelanjutan untuk masa depan lebih baik.",
-                featuresTitle: "Kenapa Memilih Kami",
-                featuresDesc: "Mengapa Memilih Harlex untuk Solusi Injeksi Plastik Custom?",
-                sustainabilityDesc: "Harlex Industritama menawarkan layanan injeksi plastik yang sepenuhnya fleksibel. Kami dapat membantu Anda merancang dan memproduksi produk sesuai kebutuhan bisnis Anda, bahkan jika Anda belum menemukan pabrik lain yang mampu melakukannya.",
-                quality: "Kualitas Tinggi dengan Harga Kompetitif",
-                qualityDesc: "Kami memberikan jaminan kualitas tinggi setara produk global, namun tetap dengan harga terjangkau. Harlex memastikan hasil akhir produk selalu presisi dan memenuhi ekspektasi klien.",
-                innovation: "Dukungan Desain & Inovasi Modern",
-                innovationDesc: "Dari desain awal hingga prototipe, kami menyediakan layanan 3D Design Modeling dan 3D Printing untuk memastikan setiap ide Anda dapat diwujudkan menjadi bentuk nyata.",
-                guaranteed: "Keamanan dan Kerahasiaan Produk Terjamin",
-                guaranteedDesc: "Keamanan desain dan data klien adalah prioritas kami. Kami menggunakan standar keamanan tinggi untuk melindungi ide-ide inovatif Anda."
-            }
-        };
-        const toggleLangBtn = document.getElementById("toggleLang");
-        let lang = localStorage.getItem("lang") || "en";
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/10.jpg" alt="image">
+							</div>
+						</div>
 
-        function updateLang() {
-            document.querySelectorAll("[data-lang]").forEach(el => {
-                el.textContent = translations[lang][el.getAttribute("data-lang")];
-            });
-            toggleLangBtn.textContent = lang.toUpperCase();
-            toggleLangMobile.textContent = lang.toUpperCase();
-        }
-        toggleLangBtn.addEventListener("click", () => {
-            lang = lang === "en" ? "id" : "en";
-            localStorage.setItem("lang", lang);
-            updateLang();
-        });
-        toggleLangMobile.addEventListener("click", () => {
-            lang = lang === "en" ? "id" : "en";
-            localStorage.setItem("lang", lang);
-            updateLang();
-        });
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/11.jpg" alt="image">
+							</div>
+						</div>
 
-        function toggleAccordion(index) {
-            const content = document.getElementById(`content-${index}`);
-            const icon = document.getElementById(`icon-${index}`);
-            // SVG for Down icon
-            const downSVG = `
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
-            </svg>
-            `;
-            // SVG for Up icon
-            const upSVG = `
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
-                <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
-            </svg>
-            `;
-            // Toggle the content's max-height for smooth opening and closing
-            if (content.style.maxHeight && content.style.maxHeight !== '0px') {
-                content.style.maxHeight = '0';
-                icon.innerHTML = upSVG;
-            } else {
-                content.style.maxHeight = content.scrollHeight + 'px';
-                icon.innerHTML = downSVG;
-            }
-        }
-        var swiper_thumbs = new Swiper(".nav-for-slider", {
-            loop: true,
-            spaceBetween: 30,
-            slidesPerView: 4,
-        });
-        var swiper = new Swiper(".main-slide-carousel", {
-            slidesPerView: 1,
-            effect: "fade",
-            thumbs: {
-                swiper: swiper_thumbs,
-            },
-        });
-        // Get references to elements
-        const gallery = document.querySelector('.gallery');
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImage = document.getElementById('lightbox-image');
-        const closeButton = document.getElementById('close');
-        // Add event listener to each image
-        gallery.addEventListener('click', e => {
-            if (e.target.classList.contains('gallery-image')) {
-                const imageSrc = e.target.src;
-                lightboxImage.src = imageSrc;
-                lightbox.style.display = 'flex';
-            }
-        });
-        // Close lightbox when close button is clicked
-        closeButton.addEventListener('click', () => {
-            lightbox.style.display = 'none';
-        });
-        // Close lightbox when clicking outside the image
-        lightbox.addEventListener('click', e => {
-            if (e.target === lightbox) {
-                lightbox.style.display = 'none';
-            }
-        });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous">
-    </script>
-    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+						<div class="item">
+							<div class="img-fill">
+								<img src="assets/img/project-details/12.jpg" alt="image">
+							</div>
+						</div>
+					</div>
+
+					<button class="prev-arrow slick-arrow">
+						<i class="flaticon-left-chevron"></i>
+					</button>
+
+					<button class="next-arrow slick-arrow">
+						<i class="flaticon-right-chevron"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Our Portfolio Area -->
+
+	<!-- Start Testimonials Area -->
+	<section class="testimonials-area ptb-100">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="testimonials-img">
+						<img src="assets/img/testimonials/testimonials-img.jpg" alt="Testimonials">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="section-title">
+						<span class="top-title">Testimonials</span>
+						<h2>What People Saying About Us</h2>
+					</div>
+					<div class="testimonials-wrap owl-carousel owl-theme">
+						<div class="testimonials-text">
+							<i class="flaticon-quote"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+								ut labore et dolore magna aliqua. Quis ipsultrices gravida. Risu viverra maecenas
+								accumsan lacus vel facilisis.</p>
+							<div class="client-name">
+								<img src="assets/img/testimonials/3.jpg" alt="">
+								<h3>Jhon William</h3>
+								<span>Dustist</span>
+							</div>
+						</div>
+						<div class="testimonials-text">
+							<i class="flaticon-quote"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+								ut labore et dolore magna aliqua. Quis ipsultrices gravida. Risu viverra maecenas
+								accumsan lacus vel facilisis.</p>
+							<div class="client-name">
+								<img src="assets/img/testimonials/2.jpg" alt="">
+								<h3>Jhon William</h3>
+								<span>Dustist</span>
+							</div>
+						</div>
+						<div class="testimonials-text">
+							<i class="flaticon-quote"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+								ut labore et dolore magna aliqua. Quis ipsultrices gravida. Risu viverra maecenas
+								accumsan lacus vel facilisis.</p>
+							<div class="client-name">
+								<img src="assets/img/testimonials/1.jpg" alt="">
+								<h3>Jhon William</h3>
+								<span>Dustist</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Testimonials Area -->
+
+	<!-- Start Request A Quote Area -->
+	<section class="request-quote-area pt-100" style="margin-bottom: 50px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="request-quote-wrap">
+						<div class="contact-form">
+							<div class="quote-text">
+								<h3>Request A Qote</h3>
+								<p>Jangan ragu untuk menghubungi kami. Kami siap memberikan penawaran terbaik untuk Anda.</p>
+							</div>
+							<form id="contactForm">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<input type="text" name="name" id="name" class="form-control"
+												placeholder="Name">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<input type="email" name="email" id="email" class="form-control"
+												placeholder="Email">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<input type="text" name="number" id="number" class="form-control"
+												placeholder="Phone">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<input type="text" name="website" id="website" class="form-control"
+												placeholder="Retail & Consumer">
+										</div>
+									</div>
+									<div class="col-lg-12">
+										<div class="form-group">
+											<textarea name="message" class="form-control" id="message" cols="30"
+												rows="6" placeholder="Write somthings"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-md-6">
+										<button type="submit" class="default-btn default-btn-2">
+											Send Message
+											<i class="flaticon-right"></i>
+										</button>
+									</div>
+									<div class="col-lg-6 col-md-6">
+										<div class="dripli-call">
+											<i class="flaticon-customer-service"></i>
+											<div class="call-content">
+												<h3>Call Us:</h3>
+												<a href="#">TEL. + (123) 1800-567-8990</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Request A Quote Area -->
+
+	<!-- Start Contact Info Area -->
+	<section class="contact-info-area wow fadeInLeft" data-wow-delay=".1s">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 col-sm-6 col-md-4">
+					<div class="single-contact-info">
+						<i class="flaticon-paper-plane-2"></i>
+						<h3>Email Us:</h3>
+						<a href="#"><span class="__cf_email__">eric.agus@harlexindustries.com</span></a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-4">
+					<div class="single-contact-info">
+						<i class="flaticon-customer-service"></i>
+						<h3>Call Us:</h3>
+						<a href="tel:628193223062">Tel. + 62 819-3223-062</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-7 col-md-4">
+					<div class="single-contact-info">
+						<i class="flaticon-file"></i>
+						<h3>Our Address:</h3>
+						<a href="#">Batu Ceper - Tangerang</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Info Area -->
+
+	<!-- Start Footer Top Area -->
+	<footer class="footer-top-area pt-100 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6 col-md-6">
+					<div class="single-widget">
+						<img class="logo-img" src="assets/img/logo.png" alt="White Logo">
+						<p>Berlanggananlah sekarang dan dapatkan semua informasi terbaru langsung di kotak masuk Anda.</p>
+						<form class="newsletter-form" data-toggle="validator">
+							<input type="email" class="form-control subscribe-form-control" placeholder="Your email"
+								name="EMAIL" required autocomplete="off">
+
+							<button class="default-btn" type="submit">
+								Subscribe
+							</button>
+
+							<div id="validator-newsletter" class="form-result"></div>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-6">
+					<div class="single-widget single-widget-1">
+						<h3>Industries</h3>
+						<ul>
+							<li>
+								<a href="#">Industries</a>
+							</li>
+							<li>
+								<a href="#">Electronic Materials</a>
+							</li>
+							<li>
+								<a href="#">Gifts & Apparel</a>
+							</li>
+							<li>
+								<a href="#">Auto Parts</a>
+							</li>
+							<li>
+								<a href="#">Power Systems</a>
+							</li>
+							<li>
+								<a href="#">Building Management</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-6">
+					<div class="single-widget single-widget-2">
+						<h3>Solutions</h3>
+						<ul>
+							<li>
+								<a href="#">Solutions</a>
+							</li>
+							<li>
+								<a href="#">Automotive Manufacturing</a>
+							</li>
+							<li>
+								<a href="#">Mechanical Engineering</a>
+							</li>
+							<li>
+								<a href="#">Industrial Construction</a>
+							</li>
+							<li>
+								<a href="#">Bridge Construction</a>
+							</li>
+							<li>
+								<a href="#">Oil & Gas Energy</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-6">
+					<div class="single-widget single-widget-3">
+						<h3>Company</h3>
+						<ul>
+							<li>
+								<a href="#">About</a>
+							</li>
+							<li>
+								<a href="#">Approach</a>
+							</li>
+							<li>
+								<a href="#">Sustainability</a>
+							</li>
+							<li>
+								<a href="#">News</a>
+							</li>
+							<li>
+								<span>( Emergency Call )</span>
+								<a href="tel:00201061245741">
+									<i class="flaticon-telephone-handle-silhouette"></i>
+									(002) 01061245741
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Top Area -->
+
+	<!-- Start Footer Bottom Area -->
+	<footer class="footer-bottom-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="single-widgets">
+						<ul class="terms">
+							<li>
+								<a href="#">Terms & Conditions</a>
+							</li>
+							<li>
+								<a href="#">Privacy Policy</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="single-widgets">
+						<p>
+							© Copyright 2025 Harlex Industries. All rights reserved.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="single-widgets">
+						<ul class="social-icon">
+							<li>
+								<a href="https://www.facebook.com/" target="_blank">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.twitter.com/" target="_blank">
+									<i class="fa-brands fa-x-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/" target="_blank">
+									<i class="fa-brands fa-youtube"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/" target="_blank">
+									<i class="fa-brands fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/" target="_blank">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Bottom Area -->
+
+	<!-- Start Go Top Area -->
+	<div class="go-top">
+		<i class="fa fa-angle-double-up"></i>
+		<i class="fa fa-angle-double-up"></i>
+	</div>
+	<!-- End Go Top Area -->
+
+	<!-- Jquery Min JS -->
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- Bootstrap Bundle Min JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!--=== MeanMenu Min JS ===-->
+	<script src="assets/js/meanmenu.min.js"></script>
+	<!-- Wow Min JS -->
+	<script src="assets/js/wow.min.js"></script>
+	<!-- Owl Carousel Min JS -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!--=== ImageLightBox Min JS ===-->
+	<script src="assets/js/imagelightbox.min.js"></script>
+	<!-- Mixitup Min JS -->
+	<script src="assets/js/mixitup.min.js"></script>
+	<!-- Nice Select Min JS -->
+	<script src="assets/js/nice-select.min.js"></script>
+	<!-- Slick Min JS -->
+	<script src="assets/js/slick.min.js"></script>
+	<!-- Form Validator Min JS -->
+	<script src="assets/js/form-validator.min.js"></script>
+	<!-- Contact JS -->
+	<script src="assets/js/contact-form-script.js"></script>
+	<!--=== AjaxChimp Min JS ===-->
+	<script src="assets/js/ajaxchimp.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/custom.js"></script>
 </body>
+
 </html>

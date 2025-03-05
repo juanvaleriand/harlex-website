@@ -1,0 +1,152 @@
+/*
+===========
+CUSTOM CSS
+Author: juanvaleriand@gmail.com
+==========
+*/
+
+.default-btn-explore {
+    font-size: 16px;
+    color: #fff;
+    background-color: #9e282e !important;
+    padding: 18px 30px;
+    line-height: 1;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-img {
+    max-width: 100% !important;
+    height: 95px !important;
+}
+
+.dripli-nav-style-1 .main-nav {
+    position: unset;
+    background-color: #ffffff;
+}
+
+.dripli-nav-style-1 .main-nav nav .navbar-nav .nav-item a {
+    color: #003161 !important;
+}
+
+.dripli-nav-style-1 .others-option .language-list .nice-select {
+    color: #003161 !important;
+}
+
+.fa-magnifying-glass:before,
+.fa-search:before {
+    color: #003161;
+}
+
+.dripli-nav-style-1 .close-btn {
+    color: #003161;
+}
+
+.top-header-style-1 .contact-info li a {
+    color: #003161 !important;
+}
+
+.footer-top-area {
+    background-color: #ffffff !important;
+}
+
+.footer-top-area {
+    background-color: #ffffff !important;
+}
+
+.single-widget h3 {
+    color: #003161 !important;
+}
+
+.single-widget p {
+    color: #003161 !important;
+}
+
+.single-widget ul li a {
+    color: #003161 !important;
+}
+
+.mean-container .mean-nav {
+    margin-top: 111px !important;
+}
+.dripli-nav-style-1 .main-nav nav .navbar-nav .nav-item a:focus {
+    background-color: #9e282e !important;
+    position: relative;
+}
+
+.dripli-nav-style-1 .main-nav nav .navbar-nav .nav-item a.active::before {
+    background-color: #9e282e !important;
+}
+.single-widgets .terms li a {
+    color: #ffffff !important;
+}
+
+.single-widgets p {
+    color: #ffffff !important;
+}
+
+.single-widgets .social-icon li a i {
+    background-color: #ffffff !important;
+}
+
+.single-widgets .social-icon li:hover a i {
+    color: #14216c !important;
+}
+
+.subscribe-form-control {
+    background-color: #14216c !important
+}
+
+.single-widget .newsletter-form .default-btn:hover {
+    background-color: #7b7b7b !important;
+    color: #ffffff !important;
+}
+
+.single-widget .newsletter-form .default-btn:hover::before {
+    background-color: #7b7b7b !important;
+    color: #ffffff !important;
+}
+
+.dripli-nav-style-1 .others-option .language-list .nice-select .list li {
+    color: #ffffff !important;
+}
+
+.single-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+.single-services-container-card {
+    margin-bottom: 28px;
+}
+
+/** Only Mobile Menu **/
+@media only screen and (max-width: 991px) {
+    .mean-container .mean-bar {
+        background-color: #ffffff;
+        padding: 0;
+        height: 110px;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        color: #9e282e !important;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        background: #9e282e !important;
+        display: block;
+        height: 4px;
+        margin-top: -5px;
+        border-radius: 3px;
+        position: relative;
+        top: 8px;
+    }
+
+    .mobile-nav nav .navbar-nav {
+        height: auto !important;
+    }
+}
