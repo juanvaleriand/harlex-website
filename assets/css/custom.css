@@ -2,7 +2,7 @@
 ===========
 CUSTOM CSS
 Author: juanvaleriand@gmail.com
-==========
+===========
 */
 
 .default-btn-explore {
@@ -74,6 +74,7 @@ Author: juanvaleriand@gmail.com
 .dripli-nav-style-1 .main-nav nav .navbar-nav .nav-item a.active::before {
     background-color: #9e282e !important;
 }
+
 .single-widgets .terms li a {
     color: #ffffff !important;
 }
@@ -113,7 +114,7 @@ Author: juanvaleriand@gmail.com
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    
+
 }
 
 .single-services-container-card {
@@ -124,12 +125,37 @@ Author: juanvaleriand@gmail.com
     margin-top: 84.5px !important;
 }
 
+.navbar-brand {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !;
+}
+
+.navbar-brand img {
+    max-width: 120px !important;
+}
+
+.navbar-brand p {
+    margin-top: 5px !important;
+    font-size: 11px !important;
+    color: #444 !important;
+}
+
+.fixed-top {
+    position: relative !important;
+}
+
+.logo-img-footer {
+    height: 160px !important;
+}
+
 /** Only Mobile Menu **/
 @media only screen and (max-width: 991px) {
     .mean-container .mean-bar {
         background-color: #ffffff;
         padding: 0;
-        height: 85px;
+        height: 125px;
     }
 
     .mean-container a.meanmenu-reveal {
@@ -148,10 +174,24 @@ Author: juanvaleriand@gmail.com
     }
 
     .logo-img {
-        height: 75px !important;
+        height: 85px !important;
     }
 
     .mobile-nav nav .navbar-nav {
         height: 218px;
+        overflow-y: hidden;
+    }
+
+    .mobile-nav .logo p {
+        color: #013161;
+        font-size: 9px;
+    }
+
+    .mean-container .mean-nav ul {
+        margin-top: 45px !important;
+    }
+
+    .logo-img-footer {
+        height: 135px !important;
     }
 }
