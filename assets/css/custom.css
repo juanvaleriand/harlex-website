@@ -8,7 +8,7 @@ Author: juanvaleriand@gmail.com
 .default-btn-explore {
     font-size: 16px;
     color: #fff;
-    background-color: #9e282e !important;
+    background-color: #1075bc !important;
     padding: 18px 30px;
     line-height: 1;
     transition: all 0.5s;
@@ -72,7 +72,7 @@ Author: juanvaleriand@gmail.com
 }
 
 .dripli-nav-style-1 .main-nav nav .navbar-nav .nav-item a.active::before {
-    background-color: #9e282e !important;
+    background-color: #1075bc !important;
 }
 
 .single-widgets .terms li a {
@@ -88,11 +88,11 @@ Author: juanvaleriand@gmail.com
 }
 
 .single-widgets .social-icon li:hover a i {
-    color: #14216c !important;
+    color: #004177 !important;
 }
 
 .subscribe-form-control {
-    background-color: #14216c !important
+    background-color: #004177 !important
 }
 
 .single-widget .newsletter-form .default-btn:hover {
@@ -150,6 +150,15 @@ Author: juanvaleriand@gmail.com
     height: 160px !important;
 }
 
+.shadow-text-sm {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.shadow-text-lg {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+
 /** Only Mobile Menu **/
 @media only screen and (max-width: 991px) {
     .mean-container .mean-bar {
@@ -159,12 +168,12 @@ Author: juanvaleriand@gmail.com
     }
 
     .mean-container a.meanmenu-reveal {
-        color: #9e282e !important;
+        color: #1075bc !important;
         top: 15px;
     }
 
     .mean-container a.meanmenu-reveal span {
-        background: #9e282e !important;
+        background: #1075bc !important;
         display: block;
         height: 4px;
         margin-top: -5px;
