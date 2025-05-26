@@ -44,7 +44,7 @@ Author: juanvaleriand@gmail.com
 }
 
 .top-header-style-1 .contact-info li a {
-    color: #003161 !important;
+    color: #ffffff !important;
 }
 
 .footer-top-area {
@@ -265,7 +265,7 @@ Author: juanvaleriand@gmail.com
 .owl-carousel .owl-nav {
     position: absolute;
     left: 0;
-    right: 88.55%;
+    right: 88.25%;
     top: 80%;
     display: inline-block;
 }
@@ -282,6 +282,10 @@ Author: juanvaleriand@gmail.com
     -o-transition: 0.7s;
     transition: 0.7s;
     opacity: 1;
+}
+
+.top-header-style-1 {
+    background-color: #004177 !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -401,6 +405,16 @@ Author: juanvaleriand@gmail.com
     font-size: 60px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.contract-with-us-area {
+    background-color: #004177 !important;
+    margin-bottom: 100px;
+    color: #ffffffff !important;
+}
+
+.top-header-style-1 .contact-info li a {
+    border-right: 1px solid #ffffff !important;
 }
 
 @media (max-width: 991.98px) {
