@@ -118,8 +118,7 @@
 
   // Click Event
   $(".go-top").on("click", function () {
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: "0",
       },
       0
@@ -260,8 +259,8 @@
   //Slider Text Animation
   $(".dripli-slider-area").on("translate.owl.carousel", function () {
     $(
-      ".dripli-slider-text span, .dripli-slider-text h1, .dripli-slider-text .typewrite"
-    )
+        ".dripli-slider-text span, .dripli-slider-text h1, .dripli-slider-text .typewrite"
+      )
       .removeClass("animated fadeInUp")
       .css("opacity", "0");
     $(".dripli-slider-text p")
@@ -274,8 +273,8 @@
 
   $(".dripli-slider-area").on("translated.owl.carousel", function () {
     $(
-      ".dripli-slider-text span, .dripli-slider-text h1, .dripli-slider-text .typewrite"
-    )
+        ".dripli-slider-text span, .dripli-slider-text h1, .dripli-slider-text .typewrite"
+      )
       .addClass("animated fadeInUp")
       .css("opacity", "1");
     $(".dripli-slider-text p")
@@ -519,10 +518,7 @@
       autoplayHoverPause: true,
       items: 1,
       dots: false,
-      navText: [
-        "<i class='flaticon-left-arrow-1'></i>",
-        "<i class='flaticon-right-arrow-1'></i>",
-      ],
+      navText: ["<p><small>Prev</small><span class='ion-ios-arrow-round-back'></span></p>", "<p><small>Next</small><span class='ion-ios-arrow-round-forward'></span></p>"],
       responsive: {
         0: {
           items: 1,
