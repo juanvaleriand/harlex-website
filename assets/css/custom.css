@@ -500,11 +500,11 @@ Author: juanvaleriand@gmail.com
 
 @keyframes shimmer {
     0% {
-        background-position: -150%;
+        background-position: -100%;
     }
 
     100% {
-        background-position: 150%;
+        background-position: 100%;
     }
 }
 

@@ -10,7 +10,7 @@
   $(window).on("load", function () {
     setTimeout(() => {
       $(".preloader-harlex").fadeOut();
-    }, 1200);
+    }, 5200);
   });
 
   // Nice Select JS
