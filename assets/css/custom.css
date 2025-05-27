@@ -472,6 +472,10 @@ Author: juanvaleriand@gmail.com
     .owl-carousel .owl-nav {
         display: none !important;
     }
+
+    body {
+        overflow-x: clip !important;
+    }
 }
 
 .preloader-harlex {
