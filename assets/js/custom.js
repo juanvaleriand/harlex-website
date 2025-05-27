@@ -10,6 +10,9 @@
   $(window).on("load", function () {
     setTimeout(() => {
       $(".preloader-harlex").fadeOut();
+      $('body').attr('style', function (i, s) {
+        return (s || '') + 'overflow-y: auto !important;';
+      });
     }, 5200);
   });
 

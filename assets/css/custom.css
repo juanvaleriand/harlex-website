@@ -474,9 +474,10 @@ Author: juanvaleriand@gmail.com
     }
 
     body {
-        padding: 0;
-        margin: 0;
+        padding: 0 !important;
+        margin: 0 !important;
         overflow-x: clip !important;
+        overflow-y: clip !important;
     }
 }
 
