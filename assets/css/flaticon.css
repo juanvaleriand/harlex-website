@@ -1,0 +1,231 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/11/2019 07:46
+  	*/
+
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.eot");
+	    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+	        url("../fonts/Flaticon.woff2") format("woff2"),
+	        url("../fonts/Flaticon.woff") format("woff"),
+	        url("../fonts/Flaticon.ttf") format("truetype"),
+	        url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-style: normal;
+	}
+
+	.flaticon-phone-call:before {
+	    content: "\f100";
+	}
+
+	.flaticon-telephone-handle-silhouette:before {
+	    content: "\f101";
+	}
+
+	.flaticon-right-arrow:before {
+	    content: "\f102";
+	}
+
+	.flaticon-left-arrow:before {
+	    content: "\f103";
+	}
+
+	.flaticon-left-arrow-1:before {
+	    content: "\f104";
+	}
+
+	.flaticon-right-arrow-1:before {
+	    content: "\f105";
+	}
+
+	.flaticon-check-mark:before {
+	    content: "\f106";
+	}
+
+	.flaticon-man-user:before {
+	    content: "\f107";
+	}
+
+	.flaticon-speech-bubbles-comment-option:before {
+	    content: "\f108";
+	}
+
+	.flaticon-comments:before {
+	    content: "\f109";
+	}
+
+	.flaticon-mail:before {
+	    content: "\f10a";
+	}
+
+	.flaticon-pin:before {
+	    content: "\f10b";
+	}
+
+	.flaticon-pin-1:before {
+	    content: "\f10c";
+	}
+
+	.flaticon-target:before {
+	    content: "\f10d";
+	}
+
+	.flaticon-clock-circular-outline:before {
+	    content: "\f10e";
+	}
+
+	.flaticon-paper-plane:before {
+	    content: "\f10f";
+	}
+
+	.flaticon-paper-plane-1:before {
+	    content: "\f110";
+	}
+
+	.flaticon-bottom:before {
+	    content: "\f111";
+	}
+
+	.flaticon-shopping-cart:before {
+	    content: "\f112";
+	}
+
+	.flaticon-search:before {
+	    content: "\f113";
+	}
+
+	.flaticon-magnifying-glass:before {
+	    content: "\f114";
+	}
+
+	.flaticon-right:before {
+	    content: "\f115";
+	}
+
+	.flaticon-check-symbol:before {
+	    content: "\f116";
+	}
+
+	.flaticon-right-1:before {
+	    content: "\f117";
+	}
+
+	.flaticon-building:before {
+	    content: "\f118";
+	}
+
+	.flaticon-building-1:before {
+	    content: "\f119";
+	}
+
+	.flaticon-water-pump:before {
+	    content: "\f11a";
+	}
+
+	.flaticon-oil:before {
+	    content: "\f11b";
+	}
+
+	.flaticon-jerrycan:before {
+	    content: "\f11c";
+	}
+
+	.flaticon-car-parts:before {
+	    content: "\f11d";
+	}
+
+	.flaticon-settings:before {
+	    content: "\f11e";
+	}
+
+	.flaticon-settings-1:before {
+	    content: "\f11f";
+	}
+
+	.flaticon-process:before {
+	    content: "\f120";
+	}
+
+	.flaticon-team:before {
+	    content: "\f121";
+	}
+
+	.flaticon-capital:before {
+	    content: "\f122";
+	}
+
+	.flaticon-support:before {
+	    content: "\f123";
+	}
+
+	.flaticon-maintenance:before {
+	    content: "\f124";
+	}
+
+	.flaticon-customer-service:before {
+	    content: "\f232"
+	}
+
+	.flaticon-customer-support:before {
+	    content: "\f126";
+	}
+
+	.flaticon-support-1:before {
+	    content: "\f127";
+	}
+
+	.flaticon-box:before {
+	    content: "\f128";
+	}
+
+	.flaticon-box-1:before {
+	    content: "\f129";
+	}
+
+	.flaticon-quote:before {
+	    content: "\f12a";
+	}
+
+	.flaticon-quote-1:before {
+	    content: "\f12b";
+	}
+
+	.flaticon-paper-plane-2:before {
+	    content: "\f12c";
+	}
+
+	.flaticon-file:before {
+	    content: "\f12d";
+	}
+
+	.flaticon-calendar:before {
+	    content: "\f12e";
+	}
+
+	.flaticon-right-chevron:before {
+	    content: "\f12f";
+	}
+
+	.flaticon-left-chevron:before {
+	    content: "\f130";
+	}
+
+	.flaticon-up-arrow:before {
+	    content: "\f131";
+	}
