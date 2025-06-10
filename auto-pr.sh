@@ -3,7 +3,8 @@
 # === CONFIGURATION ===
 BASE_BRANCH="main"
 FEATURE_BRANCH=$(git branch --show-current)
-PR_TITLE="Auto PR: Update something"
+LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%s)
+PR_TITLE="${LAST_COMMIT_MESSAGE}"
 PR_BODY="PR ini dibuat otomatis via script setelah push."
 
 # === VALIDASI GH_TOKEN ===
